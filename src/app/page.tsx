@@ -1,6 +1,7 @@
 import Navbar from "@/components/layout/Navbar";
 import MarketSection from "@/components/trading/MarketSection";
 import AnalysisSection from "@/components/analysis/AnalysisSection";
+import MarketStrip from "@/components/trading/MarketStrip";
 
 export default function Home() {
   return (
@@ -11,7 +12,10 @@ export default function Home() {
     <MarketSection />
 
      <AnalysisSection />
-     
+
+      <MarketStrip />
+
     </main>
   );
 }
+<div style={{ height: "1500px" }}></div>
